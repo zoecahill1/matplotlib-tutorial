@@ -1,1 +1,1 @@
-# matplotlib-tutorial
+# Some workings on the matplotlib package
