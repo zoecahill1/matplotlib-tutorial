@@ -8,8 +8,13 @@ y = 3.0 * x + 1.0
 # np.random.noraml(mean(ie middle of bell curve), standard deviation(set to 1 as default), size or shape of data)
 noise = np.random.normal(0.0, 1.0, len(x)) # https://www.sharpsightlabs.com/blog/numpy-random-normal/
 
-plt.plot(x, y + noise, "r.")
-plt.plot(x, y, "b-")
+plt.plot(x, y + noise, "r.", label="Weight")
+plt.plot(x, y, "b-", label="Height")
+
+plt.title("Sample Graph")
+plt.xlabel("Weight")
+plt.ylabel("Height")
+plt.legend()
 
 plt.show()
 
