@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# graph plotting exponents of x
 x = np.arange(1.0, 10.0, 0.1)
 
 plt.plot(x, x**2, 'g-', label="x^2")
